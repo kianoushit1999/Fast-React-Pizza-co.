@@ -1,13 +1,14 @@
 import React from "react";
 
-import Header from "Header";
-import Footer from "Footer";
+import Header from "./Header";
+import Footer from "./Footer";
+import Menu from "./Pizza/Menu";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Header />
-
+      <Menu />
       <Footer />
     </div>
   );
