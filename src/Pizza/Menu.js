@@ -5,9 +5,9 @@ import { pizzaData } from "../Data/data";
 
 const Menu = () => {
   return (
-    <div>
+    <div className="menu">
       <h2> Our Menu </h2>
-      <ul>
+      <ul className="pizzas">
         {pizzaData.map((pizza, index, pizzaList) => {
           return <Pizza key={pizza.name} pizza={pizza} />;
         })}

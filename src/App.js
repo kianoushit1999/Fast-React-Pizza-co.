@@ -6,7 +6,7 @@ import Menu from "./Pizza/Menu";
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <Menu />
       <Footer />

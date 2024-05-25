@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pizza = (props) => {
-    return <li>
+    return <li className="pizza">
         <img src={props.pizza.photoName} alt={props.pizza.name} />
         <div>
             <h3>{props.pizza.name}</h3>
