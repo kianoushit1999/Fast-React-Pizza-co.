@@ -8,7 +8,7 @@ const Menu = () => {
     <div className="menu">
       <h2> Our Menu </h2>
       <ul className="pizzas">
-        {pizzaData.map((pizza, index, pizzaList) => {
+        {pizzaData.length > 0 && pizzaData.map((pizza, index, pizzaList) => {
           return <Pizza key={pizza.name} pizza={pizza} />;
         })}
         ;
