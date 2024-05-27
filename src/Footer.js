@@ -5,7 +5,6 @@ const Footer = () => {
     const closeHour = 23;
     const currentTime = new Date().getHours()
     const isOpen = currentTime >= openHour && currentTime <= closeHour;
-    console.log(isOpen);
     return <footer className="footer">
         {isOpen ? (
             <div className="order">
